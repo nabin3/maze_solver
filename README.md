@@ -15,8 +15,7 @@ cd maze_solver/
 ```bash
 python3 -m pip install virtualenv   # Incase you havn't it
 virtualenv -p python3 maze_solver_venv
-cd maze_solver_venv
-. bin/activate
+python3 -m virtualenv maze_solver_venv
 ```
 
 ## Run 
