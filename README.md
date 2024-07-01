@@ -13,12 +13,20 @@ cd maze_solver/
 
 ## Create virtual-env
 ```bash
-python3 -m pip install virtualenv   # Incase you havn't it
-virtualenv -p python3 maze_solver_venv
-python3 -m virtualenv maze_solver_venv
+python -m venv .venv	# Creates a virtual environment named .venv
+```
+
+## Activate the virtual-env
+```bash
+source .venv/bin/activate
 ```
 
 ## Run 
 ```bash
 python main.py
+```
+
+## Deactivate the vitualenv
+```bash
+deactivate
 ```
